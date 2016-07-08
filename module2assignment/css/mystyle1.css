@@ -1,0 +1,195 @@
+
+
+*{
+	margin: 0px; padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+
+body{
+
+}
+
+div{
+	padding: 10px; margin: 2px;
+}
+
+
+
+div.color{
+	background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+
+}
+
+
+div.header{
+	padding: 10px; margin: 2px;
+}
+
+
+
+.div1, .div2, .div3{
+	color: rgba(225, 225, 225, 0.7);
+	
+	width: 32%; 
+
+
+	border: 1px solid;
+	border-color: rgba(225, 225, 225, 0.5);
+	border-radius: .3rem;
+
+	background-color: rgba(225, 225, 225, 0.07);
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float: left
+
+}
+
+.div4{
+	clear: both;
+	width: 100%
+
+}
+
+
+#div4{
+	border: none;
+}
+/*	color: rgba(225, 225, 225, 0.7);
+	
+	width: 32%; 
+
+	border: 1px solid;
+	border-color: rgba(225, 225, 225, 0.5);
+	border-radius: .3rem;
+
+	background-color: rgba(225, 225, 225, 0.07);
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+
+.div3{
+	color: rgba(225, 225, 225, 0.7);
+	
+	width: 32%; 
+
+	border: 1px solid;
+	border-color: rgba(225, 225, 225, 0.5);
+	border-radius: .3rem;
+
+	background-color: rgba(225, 225, 225, 0.07);
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+
+}*/
+
+p{
+padding: 10px;
+line-height: 24px;
+clear: right
+}
+
+
+
+p.inline{
+	border: 1px solid;
+	border-radius: 0.3rem;
+	border-color: rgba(225, 225, 225, 0.5);
+
+	width: 50%;
+	overflow: hidden;
+	text-align: center;
+	float: right
+
+}
+
+
+
+h1.header{
+	padding: 35px 5px 5px 5px; margin: 5px;
+	/*display: block;*/
+	color: white;
+	height: 100px; 
+	
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-style: normal; 
+	font-weight:bold;*/ 
+	font-size: 175% ; 
+	
+	text-transform: ;
+	text-align: center;
+}
+
+
+
+
+section {
+	clear: left;
+	color: green; text-align: center;
+
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 23px;
+}
+
+
+
+/*Large Devices*/
+@media (min-width: 1200px) {
+	.div1{
+		width: 32%;
+	}
+
+	.div2{
+		width: 32%;
+	}
+
+	.div3{
+		width: 32%;
+	}
+	p.inline{
+		width: 50%;
+	}
+}
+
+
+
+/*Medium Devices*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.div1{
+		width: 48%;
+	}
+
+	.div2{
+		width: 48%;
+	}
+	.div3{
+		width: 96%;
+	}
+	p.inline{
+		width: 15%;
+	}
+}
+
+
+/*Small Devices*/
+@media (max-width: 991px) {
+	.div1{
+		width: 96%;
+	}
+
+	.div2{
+		width: 96%;
+	}
+	.div3{
+		width: 96%;
+	}
+	p.inline{
+		width: 15%;
+	}
+}
